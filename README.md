@@ -4,6 +4,10 @@ This function is designed to allocate incoming supply to outstanding customer or
 <h3>Usage</h3></br>
 To use this script, you need to provide two arrays of objects: salesOrders and purchaseOrders, each containing order information. The algorithm will then calculate the delivery dates for each sales order based on the available stock from the purchase orders.</br></br>
 
+```console
+node .\code-challenge.ts
+```
+
 ```javascript
 const salesOrders = [
   {
