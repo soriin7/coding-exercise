@@ -1,4 +1,5 @@
-
+//Test 1
+const salesOrders = [{
 'id': 'S1',
   'created': '2020-01-02',
     'quantity': 6
@@ -42,6 +43,7 @@ const purchaseOrders = [{
   'quantity': 7
 }];
 
+//Test 2
 const salesOrders = [{
   'id': 'S1',
   'created': '2020-01-02',
@@ -70,6 +72,7 @@ const purchaseOrders = [{
   'quantity': 5
 }];
 
+//Test 3
 const salesOrders = [{
   'id': 'S1',
   'created': '2020-01-02',
@@ -86,6 +89,7 @@ const purchaseOrders = [{
   'quantity': 75
 }];
 
+//Test 4
 const salesOrders = [{
   'id': 'S1',
   'created': '2020-01-02',
@@ -110,6 +114,7 @@ const purchaseOrders = [{
   'quantity': 200
 }];
 
+//Test 5
 const salesOrders = [{
   'id': 'S1',
   'created': '2020-01-02',
@@ -130,6 +135,7 @@ const purchaseOrders = [{
   'quantity': 3
 }];
 
+//Test 6
 const salesOrders = [{
   'id': 'S1',
   'created': '2020-01-02',
