@@ -1,11 +1,10 @@
-Allocation Algorithm
-This algorithm is designed to allocate incoming supply to outstanding customer orders based on a first come first served basis. It prioritizes orders based on their creation dates and allocates stock from incoming purchase orders accordingly.
+<h1>Allocation Algorithm</h1></br>
+This algorithm is designed to allocate incoming supply to outstanding customer orders based on a first come first served basis. It prioritizes orders based on their creation dates and allocates stock from incoming purchase orders accordingly.</br></br>
 
-Usage
-To use this algorithm, you need to provide two arrays of objects: salesOrders and purchaseOrders, each containing order information. The algorithm will then calculate the delivery dates for each sales order based on the available stock from the purchase orders.
+<h3>Usage</h3></br>
+To use this algorithm, you need to provide two arrays of objects: salesOrders and purchaseOrders, each containing order information. The algorithm will then calculate the delivery dates for each sales order based on the available stock from the purchase orders.</br></br>
 
-Example usage:
-
+```javascript
 const salesOrders = [
   {
     'id': 'S1',
@@ -38,3 +37,4 @@ const purchaseOrders = [
 ];
 
 console.log(allocate(salesOrders, purchaseOrders));
+```
